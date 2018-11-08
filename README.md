@@ -4,6 +4,8 @@ This is the seventh project in the Front End Web Development Nanodegeree by Udac
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Service worker has been enabled in the react app.  It can be enabled by production version of the application.
+
 ## Instructions
 
 Clone the repo and run the following:
