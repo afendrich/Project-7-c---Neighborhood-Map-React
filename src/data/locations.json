@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Boro Bar & Grill Hummelstown",
+    "street": "1810, 401 E Main St",
+    "city": "Hummelstown",
+    "state": "PA",
+    "zipcode": "17036",
+    "website": "http://www.borobar.com/",
+    "pos": { "lat": 40.267324, "lng": -76.697792 },
+    "type": "restaurant"
+  },
+  {
+    "name": "Warwick Hotel",
+    "street": "12 W Main St",
+    "city": "Hummelstown",
+    "state": "PA",
+    "zipcode": "17036",
+    "website": "http://www.thewarwickhotel.com/",
+    "pos": { "lat": 40.265731, "lng": -76.708561 },
+    "type": "restaurant"
+  },
+  {
+    "name": "Hersheypark",
+    "street": "100 Hersheypark Dr",
+    "city": "Hershey",
+    "state": "PA",
+    "zipcode": "17033",
+    "website": "http://www.hersheypark.com/",
+    "pos": { "lat": 40.289419, "lng": -76.654901 },
+    "type": "park"
+  },
+  {
+    "name": "Tröegs Independent Brewing",
+    "street": "200 Hersheypark Dr",
+    "city": "Hershey",
+    "state": "PA",
+    "zipcode": "17033",
+    "website": "https://troegs.com/",
+    "pos": { "lat": 40.297952, "lng": -76.643137 },
+    "type": "brewery"
+  },
+  {
+    "name": "Shank Park",
+    "street": "855 Bullfrog Valley Rd",
+    "city": "Hershey",
+    "state": "PA",
+    "zipcode": "17033",
+    "website": "http://www.derrytownship.org/resident-services/public-parks",
+    "pos": { "lat": 40.24732, "lng": -76.675998 },
+    "type": "park"
+  }
+]
