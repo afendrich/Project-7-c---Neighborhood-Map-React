@@ -194,7 +194,7 @@ class MapDisplay extends Component {
         onReady={this.mapReady}
         google={this.props.google}
         zoom={this.props.zoom}
-        style={style}
+        //style={style}
         initialCenter={center}
         onClick={this.closeInfoWindow}
       >

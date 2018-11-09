@@ -11,7 +11,7 @@ class ListDrawer extends Component {
   //style for the drawer
   styles = {
     list: {
-      width: "275px",
+      //width: "275px",
       padding: "0px 10px 0px"
     },
 
@@ -44,9 +44,9 @@ class ListDrawer extends Component {
     return (
       <div>
         <Drawer open={this.props.open} onClose={this.props.toggleDrawer}>
-          <div style={this.styles.list}>
+          <div>
             <input
-              style={this.styles.filterEntry}
+              class="inputField"
               type="text"
               placeholder="Filter list"
               name="filter"
@@ -57,9 +57,9 @@ class ListDrawer extends Component {
               {this.props.locations &&
                 this.props.locations.map((location, index) => {
                   return (
-                    <li style={this.styles.listItem} key={index}>
+                    <li key={index}>
                       <button
-                        style={this.styles.listLink}
+                        class="listDrawer"
                         key={index}
                         onClick={e => this.props.clickListItem(index)}
                       >
