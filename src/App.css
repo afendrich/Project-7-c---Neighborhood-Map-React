@@ -44,21 +44,29 @@
     margin-top: 1em;
     background-color: lightseagreen;
   }
+
+  .listDrawer {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .mapTitle {
-    font-size: 2.25em;
+    font-size: 1.5em;
     margin-inline-start: 35px;
     margin-inline-end: 35px;
   }
 
   .drawerButton {
     float: left;
-    margin: 0em;
-    padding: 2em;
+    margin-top: 0em;
+    padding: 1em;
     margin-inline-start: 35px;
     background-color: lightseagreen;
+  }
+
+  .listDrawer {
+    font-size: 1em;
   }
 }
 
@@ -82,6 +90,6 @@
 
   .inputField {
     width: 300px;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
