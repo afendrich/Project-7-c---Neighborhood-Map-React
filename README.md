@@ -10,6 +10,7 @@ Service worker has been enabled in the react app.  It can be enabled by producti
 
 Clone the repo and run the following:
 * install all project dependencies with `npm install`
+* install google maps react with `npm install google-maps-react`
 * install the following:  `npm install @material-ui/core`
 * start the development server with `npm start`
 
