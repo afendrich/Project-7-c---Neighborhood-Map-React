@@ -15,24 +15,6 @@ class App extends Component {
     open: false
   };
 
-  styles = {
-    menuButton: {
-      marginLeft: 30,
-      marginRight: 20,
-      position: "absolute",
-      left: 10,
-      top: 20,
-      background: "aqua",
-      padding: 10
-    },
-    hide: {
-      display: "none"
-    },
-    header: {
-      marginTop: "0px"
-    }
-  };
-
   //after component mounts set states
   componentDidMount = () => {
     this.setState({
@@ -73,11 +55,7 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-          <button
-            class="drawerButton"
-            onClick={this.toggleDrawer}
-            //style={this.styles.menuButton}
-          >
+          <button class="drawerButton" onClick={this.toggleDrawer}>
             <i className="fa fa-bars" />
           </button>
           <h1 class="mapTitle">Places to check out near Hershey, PA</h1>
