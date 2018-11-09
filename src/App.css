@@ -30,12 +30,11 @@
     transform: rotate(360deg);
   }
 }
-/*responsive design*/
 
+/*responsive design*/
 @media screen and (max-width: 425px) {
   .mapTitle {
     font-size: 1em;
-    /*margin-block-start: 3em;*/
     margin-inline-start: 35px;
     margin-inline-end: 35px;
   }
@@ -43,15 +42,46 @@
   .drawerButton {
     padding: 1em;
     margin-top: 1em;
-  }
-
-  .mapDisplay {
-    width: 100%;
-    height: 100%;
+    background-color: lightseagreen;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .mapTitle {
+    font-size: 2.25em;
+    margin-inline-start: 35px;
+    margin-inline-end: 35px;
+  }
+
+  .drawerButton {
+    float: left;
+    margin: 0em;
+    padding: 2em;
+    margin-inline-start: 35px;
+    background-color: lightseagreen;
+  }
 }
+
 @media screen and (min-width: 1025px) {
+  .mapTitle {
+    font-size: 4em;
+    margin-inline-start: 35px;
+    margin-inline-end: 35px;
+  }
+
+  .drawerButton {
+    float: left;
+    margin: 2em;
+    padding: 3em;
+    background-color: lightseagreen;
+  }
+
+  .listDrawer {
+    font-size: 4em;
+  }
+
+  .inputField {
+    width: 800px;
+    font-size: 4em;
+  }
 }
