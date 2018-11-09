@@ -17,7 +17,7 @@ class App extends Component {
 
   styles = {
     menuButton: {
-      marginLeft: 10,
+      marginLeft: 30,
       marginRight: 20,
       position: "absolute",
       left: 10,
@@ -76,13 +76,14 @@ class App extends Component {
           <button
             class="drawerButton"
             onClick={this.toggleDrawer}
-            style={this.styles.menuButton}
+            //style={this.styles.menuButton}
           >
             <i className="fa fa-bars" />
           </button>
-          <h1>Places to check out near Hershey, PA</h1>
+          <h1 class="mapTitle">Places to check out near Hershey, PA</h1>
         </div>
         <MapDisplay
+          class="mapDispaly"
           lat={this.state.lat}
           lon={this.state.lon}
           zoom={this.state.zoom}
@@ -90,6 +91,7 @@ class App extends Component {
           selectedIndex={this.state.selectedIndex}
         />
         <ListDrawer
+          class="listDrawer"
           locations={this.state.filtered}
           open={this.state.open}
           toggleDrawer={this.toggleDrawer}

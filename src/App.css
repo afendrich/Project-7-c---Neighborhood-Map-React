@@ -30,17 +30,23 @@
     transform: rotate(360deg);
   }
 }
-
 /*responsive design*/
 
-@media screen and (max-width: 767px) {
-  h1 {
-    position: relative;
-    left: 25px;
+@media screen and (max-width: 320px) {
+  .mapTitle {
+    font-size: 1em;
+    /*margin-block-start: 3em;*/
+    margin-inline-start: 35px;
+    margin-inline-end: 35px;
   }
 
   .drawerButton {
-    position: relative;
-    left: 0px;
+    padding: 1em;
+    margin-top: 1em;
+  }
+
+  .mapDisplay {
+    width: 100%;
+    height: 100%;
   }
 }
