@@ -64,24 +64,24 @@
 
 @media screen and (min-width: 1025px) {
   .mapTitle {
-    font-size: 4em;
+    font-size: 2em;
     margin-inline-start: 35px;
     margin-inline-end: 35px;
   }
 
   .drawerButton {
     float: left;
-    margin: 2em;
-    padding: 3em;
+    margin: 1em;
+    padding: 1em;
     background-color: lightseagreen;
   }
 
   .listDrawer {
-    font-size: 4em;
+    font-size: 1em;
   }
 
   .inputField {
     width: 800px;
-    font-size: 4em;
+    font-size: 1.5em;
   }
 }
