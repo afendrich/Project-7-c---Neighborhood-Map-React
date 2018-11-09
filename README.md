@@ -10,6 +10,7 @@ Service worker has been enabled in the react app.  It can be enabled by producti
 
 Clone the repo and run the following:
 * install all project dependencies with `npm install`
+* install the following:  `npm install @material-ui/core`
 * start the development server with `npm start`
 
 Runs the app in the development mode.<br>
